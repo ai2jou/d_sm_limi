@@ -2,7 +2,7 @@ name: Build
 on: push
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2019
     steps:
       - name: Debug
         uses: NyaMisty/reverse-rdp-windows-github-actions-ng@master
